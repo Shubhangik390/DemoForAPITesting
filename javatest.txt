@@ -1,0 +1,206 @@
+Q.1)
+package javatest;
+
+public class Equal_Numbers {
+public static void main(String[] args)
+{
+int number1=6;
+int number2=10;
+if(number1==number2)
+{
+System.out.println(number1+" is equal to "+number2);
+}
+else
+{
+System.out.println(number1+" is not equal to "+number2);
+}
+}
+-------------------------------------------------------------------------------
+Q.2)
+package javatest;
+public class Even_Odd {
+public static void main(String[] args)
+{
+int num=10;
+if(num%2==0)
+{
+System.out.println(num+"is  even no" );
+}
+else
+{
+System.out.println(num+"is Odd no");
+}
+}
+--------------------------------------------------------------------------------
+Q.3)
+package javatest;
+public class Vowel_Consonent {
+public static void main(String[] args)
+{
+char ch="e";
+if(ch=='a'  ||ch=='e' ||ch=='i'||ch=='o'||ch=='u')
+{
+System.out.println(ch+ " is vowel" );
+}
+else
+{
+System.out.println(ch+"is consonant");
+}
+}
+-----------------------------------------------------
+Q.4)
+
+package javatest;
+public class Positive_negative{
+public static void main(String[] args)
+{
+int num=4;
+if(num>0)
+{
+System.out.println(num+"is  Psitive no" );
+}
+else
+{
+System.out.println(num+"is Negetive no");
+}
+}
+------------------------------------------------
+Q.5)
+package javatest;
+public class VOting_Eligibilty{
+public static void main(String[] args)
+{
+   int age=20;
+   String name="Deepak";
+if(age>=18)
+{
+System.out.println(name+"is Eligible for voting" );
+}
+else
+{
+System.out.println(name+"is not Eligible for voting");
+}
+}
+-----------------------------------------------
+Q.6)
+package javatest;
+public class cost{
+public static void main(String[] args)
+{
+
+int pen_Cost=10;
+int total=70*penCost;
+int discount;
+			
+if(totalCost >1000)
+{
+discount=totalCost-20;
+System.out.println("You  can got discount of Rs "+discount);
+}
+else
+{
+discount=totalCost-10;
+System.out.println("You  can got discount of Rs "+discount);
+}			
+
+
+
+
+
+
+
+
+--------------------------------------------------------
+Q.7) variables are the names used to refer a data stored in the memory.
+types of variable=
+1)Local variable=
+local variable are those variable which are declared inside the method and they have scope within the method
+2)Instance Variable=
+It is also called as Gloabal variable .instance variable declared at class level and it can be accessed to anywahere
+3)Static and non static variable=
+static variable are belogs to class and non static variable belongs to object
+4)Object referance variable
+
+------------------------------------------------------------
+8) local variable =
+local variable are those variable which are declared inside the method.
+loacl variable can only be static
+local variable is manadatory to initialize otherwise it will give error
+local variable can be used inside the method in which it is declared and initialized
+
+nstance Variable=
+It is also called as Gloabal variable 
+instance variable declared at class level and it can be accessed inside any method of the class
+if instance variable can not initialized instance variable will assign the default value of the data type
+It can be static and nonstatic also.
+--------------------------------------------------------
+Q.9)Static variable  can be accessed using following ways:
+
+
+a)only variable name
+b)class name.variable name
+eg)  
+public class A 
+{
+static int i=0; 
+ static int k=0;
+ public static void main(String[] args) 
+ {
+ System.out.println(A.i);
+ System.out.println(A.k);
+ System.out.println(i);
+	 
+ }
+}
+--------------------------------------------------------------------
+
+Q.10)Output=
+0
+null 
+K
+-------------------------------------------------
+Q.11)output=
+0.9
+false
+100
+false
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
